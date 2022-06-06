@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    --header-color: #f8a836;
+    --body-color: #ffffa3;
+    --h1-color: #31110f;
+    --h4-color: #6d322d;
+    --p-color: #740000;
+    --hist-color: #fbd46c;
+    --white: #ffff;
+    --footer-color: #f8a836;
+    --h2-color: #4f221e;
+}
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: var(--header-color);
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+header div img {
+    width: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+    padding-right: 1rem;
+}
+
+header div svg {
+    padding-bottom: 2.3rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+
+}
+
+header div a button {
+    border: none;
+    background-color: var(--header-color);
+}
+
+body {
+    align-items: center;
+    text-align: center;
+    background-color: var(--body-color);
+    height: 1rem;
+}
+
+body h4 {
+    margin-top: 3rem;
+    color: var(--h4-color);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8em;
+}
+
+body h1 {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--h1-color);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+body p {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--p-color);
+    margin-bottom: 0.5rem;
+}
+
+body .pic img {
+    width: 18.5rem;
+    height: 18.5rem;
+}
+
+body .agend a {
+    background-color: var(--header-color);
+    border: transparent;
+    border-radius: 2rem;
+    margin-bottom: 6rem;
+    padding: 1.6rem 3.2rem;
+    width: fit-content;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    text-decoration: none;
+}
+
+body .agend a:hover {
+    background-color: white;
+    color: var(--button-color);
+    border: solid;
+    transition: 1s;
+}
+
+body .hist {
+    margin-top: 5rem;
+    background-color: var(--hist-color);
+}
+
+body .hist h4 {
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+body .hist h1 {
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+
+body .hist p {
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+body .hist img {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    width: 15rem;
+}
+
+
+
+body .cards {
+    margin-top: 2rem;
+    border: 1px solid black;
+    width: 15rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border-color: var(--hist-color);
+    background-color: var(--white);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body .cards .card svg {
+    padding-right: 10rem;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+body .cards .card h3 {
+    padding-right: 5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 1rem;
+}
+
+footer .contato {
+    background-color: var(--footer-color);
+    height: 15rem;
+    margin-top: 1rem;
+}
+
+footer .contato h2 {
+
+    padding-top: 1rem;
+    color: var(--h2-color)
+}
+
+footer .contato h1 {
+    color: var(--h4-color);
+    padding-bottom: 2rem;
+}
+
+footer .contato a {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
